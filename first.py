@@ -144,7 +144,7 @@ def can_segment_str(s, dictionary):
 
 s = "datacamp"
 dictionary = ["data", "camp", "cam", "lack"]
-can_segment_string(s, dictionary)
+can_segment_str(s, dictionary)
 # True
 
 """
