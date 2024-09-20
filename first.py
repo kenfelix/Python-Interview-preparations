@@ -179,6 +179,7 @@ def removeDuplicates(array):
             array[insertIndex] = array[i]
             # Incrementing insertIndex count by 1
             insertIndex = insertIndex + 1
+    print(array)
     return insertIndex
 
 array_1 = [1,2,2,3,3,4]
@@ -378,7 +379,7 @@ The generator is a function similar to a normal function, but it generates a val
 
 Read more about Python iterators and generators in our full tutorial. 
 
-24. Given an array arr[], find the maximum j – i such that arr[j] > arr[i]
+24. Given an array arr[], find the maximum j - i such that arr[j] > arr[i]
 This question is quite straightforward but requires special attention to detail. We are provided with an array of positive integers. We have to find the maximum difference between j-i where array[j] > array[i].
 
 Examples:
